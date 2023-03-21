@@ -1,44 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
     <title>Eric Valentino | CV</title>
-  </head>
-  <body>
-    
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm ">
-  <div class="container">
-    <a class="navbar-brand" href="#">Eric Valentino</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav ms-auto">
-        <a class="nav-link" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Projects</a>
-        <a class="nav-link" href="#">Contact</a>
-      </div>
+</head>
+
+<body>   
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Eric Valentino</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
     </div>
-  </div>
 </nav>
     
 <div class="jumbotron text-center mb-5 ">
     <img src="img/profile.jpg" alt="profile picture" width="200" class="rounded-circle img-thumbnail"/>
-  <h1 class="display-4">Eric Valentino</h1>
-  <p class="lead">Student | Information System</p>
+    <h1 class="display-4">Eric Valentino</h1>
+    <p class="lead">Student | Information System</p>
 </div>
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-lg-8 info-panel",>
+        <div class="col-lg-8 info-panel">
             <div class="row">
                 <div class="col-lg">
                     <img src="img/adobe.jpg" class="rounded" alt="Adobe" style="float: left;">
-                    <h4>Video Editor</h4>
+                    <h4>Video Editing</h4>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
                 <div class="col-lg">
@@ -58,20 +58,20 @@
 
 <section id="about">
     <div class="container">
-        <div class="text-center m-5">
+        <div class="text-center m-md-5 about">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vel praesentium debitis non iusto quo esse! Maiores explicabo asperiores eum quibusdam tempore id pariatur, tempora quam animi dolores labore assumenda mollitia facere officiis. Fuga officia excepturi expedita eligendi! Nihil delectus eum vero optio. Sit, nam nobis quia, non adipisci corrupti laboriosam perspiciatis minus ratione hic libero, molestias aliquam beatae! Error pariatur, corrupti vitae, nihil incidunt magnam numquam libero eos at perferendis eveniet! Doloremque, optio commodi.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non animi nulla adipisci esse quos quis cupiditate suscipit, recusandae dolorem similique debitis eaque commodi tenetur cumque, illo dolorum velit! Maxime pariatur temporibus voluptatum iusto accusantium expedita animi dignissimos natus, aspernatur consequatur suscipit soluta magnam laudantium ratione, harum aliquid architecto, reprehenderit commodi.</p>
         </div>
     </div>
 </section>
 
-<section class="projects">
+<section id="projects">
     <div class="container" style="justify-content: space-between; display:flex;">
         <div class="text mt-5">
             <h2>My project</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore. Possimus hic nostrum quasi sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="text mt-5">
+        <div class="text mt-5 btn">
             <a href="https://github.com/Ourve76" class="btn btn-outline-secondary">View More</a>
         </div>
     </div>
@@ -134,22 +134,20 @@
             </div>
         </div>
     </div>
-    
 </section>
 
-<section class="contact">
-    <div class="container">
-        <div class="text-white text-center">
+<section id="contact">
+        <div class="text-white text-center contact">
             <h4>Ericvalentino71@gmail.com</h4>
             <h6 class="mt-3 mb-4">0812-3456-7890 | 0809-8765-4321</h6>
             <div class="link">
-                <a class="link text-white" href="#">Home</a>
-                <a>|</a>
-                <a class="link text-white" href="about">About</a>
-                <a>|</a>
-                <a class="link text-white" href="projects">Projects</a>
-                <a>|</a>
-                <a class="link text-white" href="contact">Contact</a>
+                <a class="link text-white" href="">Home</a>
+                |
+                <a class="link text-white" href="#about">About</a>
+                |
+                <a class="link text-white" href="#projects">Projects</a>
+                |
+                <a class="link text-white" href="#contact">Contact</a>
             </div>
             <div class="text mt-3">
                 <a href="https://discord.gg/SNdERRd"><img src="img/discord.svg"></a>
@@ -158,7 +156,6 @@
                 <a href="https://www.instagram.com/eric_valentino76"><img src="img/instagram.svg"></a>
             </div>
         </div>
-    </div>
 </section>
 
 <div class="footer">
@@ -167,8 +164,7 @@
 </footer>
 </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>

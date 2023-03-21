@@ -1,3 +1,7 @@
+.navbar{
+    background-color: #447FBA;
+}
+
 .jumbotron {
     padding-top: 9rem;
     padding-bottom: 9rem;
@@ -5,7 +9,7 @@
 }
 
 .jumbotron h1 {
-    font-size: 42pt;
+    font-size: 36pt;
     font-weight: bold;
 }
 
@@ -40,7 +44,7 @@
 }
 
 .contact {
-    background-color: rgba(0, 81, 161, 0.733);
+    background-color: rgba(0, 82, 163, 0.733);
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
