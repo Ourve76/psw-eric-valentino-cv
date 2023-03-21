@@ -17,7 +17,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ms-auto">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Home</a>
         <a class="nav-link" href="#">About</a>
         <a class="nav-link" href="#">Projects</a>
         <a class="nav-link" href="#">Contact</a>
@@ -26,7 +26,7 @@
   </div>
 </nav>
     
-<div class="jumbotron text-center mb-5">
+<div class="jumbotron text-center mb-5 ">
     <img src="img/profile.jpg" alt="profile picture" width="200" class="rounded-circle img-thumbnail"/>
   <h1 class="display-4">Eric Valentino</h1>
   <p class="lead">Student | Information System</p>
@@ -67,19 +67,19 @@
 
 <section class="projects">
     <div class="container" style="justify-content: space-between; display:flex;">
-        <div>
+        <div class="text mt-5">
             <h2>My project</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, labore. Possimus hic nostrum quasi sequi.</p>
         </div>
-        <div>
+        <div class="text mt-5">
             <a href="https://github.com/Ourve76" class="btn btn-outline-secondary">View More</a>
         </div>
     </div>
     
     <div class="container">
-        <div class="row mt-5">
-            <div class="col-4">
-                <div class="card">
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card mb-3">
                     <img src="img/project.jpg" class="card-img-top" alt="Project1">
                     <div class="card-body">
                         <h5 class="card-title">Project 1</h5>
@@ -87,8 +87,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card">
+            <div class="col-md-4">
+                <div class="card mb-3">
                     <img src="img/project.jpg" class="card-img-top" alt="Project2">
                     <div class="card-body">
                         <h5 class="card-title">Project 2</h5>
@@ -96,8 +96,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="card mt">
+            <div class="col-md-4">
+                <div class="card mb-3">
                 <img src="img/project.jpg" class="card-img-top" alt="Project4">
                     <div class="card-body">
                         <h5 class="card-title">Project 3</h5>
@@ -105,7 +105,7 @@
                     </div>
                 </div>
             </div>   
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card mt-3">
                 <img src="img/project.jpg" class="card-img-top" alt="Project5">
                     <div class="card-body">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card mt-3">
                 <img src="img/project.jpg" class="card-img-top" alt="Project5">
                     <div class="card-body">
@@ -123,7 +123,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="card mt-3">
                     <img src="img/project.jpg" class="card-img-top" alt="Project5">
                     <div class="card-body">
@@ -137,19 +137,27 @@
     
 </section>
 
-<section class="contacts">
-    <div class="container bg-danger">
-        <div style="justify-content: space-between; display:flex;">
-        <div class="row text-white">
-                <div class="col">
-                    <h2>Contacts</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus officia distinctio accusantium quia unde tempore deserunt, voluptatibus, error magnam quos cum vero commodi similique reprehenderit earum dolores eos? Nobis, quam.</p>
-                </div>
-            <div class="col">
-                <img src="img/footer.jpg" alt="contact" class="img-fluid rounded-3">
+<section class="contact">
+    <div class="container">
+        <div class="text-white text-center">
+            <h4>Ericvalentino71@gmail.com</h4>
+            <h6 class="mt-3 mb-4">0812-3456-7890 | 0809-8765-4321</h6>
+            <div class="link">
+                <a class="link text-white" href="#">Home</a>
+                <a>|</a>
+                <a class="link text-white" href="about">About</a>
+                <a>|</a>
+                <a class="link text-white" href="projects">Projects</a>
+                <a>|</a>
+                <a class="link text-white" href="contact">Contact</a>
+            </div>
+            <div class="text mt-3">
+                <a href="https://discord.gg/SNdERRd"><img src="img/discord.svg"></a>
+                <a href="https://github.com/Ourve76"><img src="img/github.svg"></a>
+                <a href="https://www.youtube.com/@BevalDigital"><img src="img/youtube.svg"></a>
+                <a href="https://www.instagram.com/eric_valentino76"><img src="img/instagram.svg"></a>
             </div>
         </div>
-    </div>
     </div>
 </section>
 

@@ -1,5 +1,6 @@
 .jumbotron {
-    padding: 9rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
     background-color: aliceblue;
 }
 
@@ -38,19 +39,38 @@
     font-weight: 200;
 }
 
-.contacts img {
-    width: 400px;
-    height: 400px;
-    margin-left: 250px;
-}
-
-.contacts {
+.contact {
     background-color: rgba(0, 81, 161, 0.733);
     margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact p {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contact img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.contact link {
+    margin-left: 10px;
+    margin-right: 3px;
 }
 
 .footer {
     background-color: rgba(0, 80, 161, 0.8);
     padding-top: 10px;
     padding-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
 }
